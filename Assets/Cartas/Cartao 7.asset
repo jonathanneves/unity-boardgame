@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
+  m_Name: Cartao 7
+  m_EditorClassIdentifier: 
+  numero: 7
+  questao: "\u201CTodo ser humano como membro da sociedade tem direito \xE0 __________________,
+    \xE0 coopera\xE7\xE3o internacional e, conforme a organiza\xE7\xE3o e recursos
+    de cada Estado, tem a tutela do livre desenvolvimento da sua personalidade e
+    a garantia de preserva\xE7\xE3o da dignidade da pessoa humana.\u201D"
+  alternativas:
+  - a) Dignidade da pessoa humana
+  - "b) Seguran\xE7a nacional"
+  - c) Desenvolvimento da sua personalidade
+  resposta: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
+  m_Name: Cartao 8
+  m_EditorClassIdentifier: 
+  numero: 8
+  questao: "An\xE1lise e responda: \u201CTodo ser humano tem direito ao trabalho,
+    \xE0 livre escolha de emprego, a condi\xE7\xF5es justas e favor\xE1veis de trabalho
+    e a prote\xE7\xE3o contra o desemprego.\u201D A qual direito fundamental a frase
+    esta se referindo?"
+  alternativas:
+  - a) Direito ao Trabalho
+  - b) Livre escolha de emprego
+  - "c) Prote\xE7\xE3o contra o desemprego"
+  resposta: 5
+  ehQuestao: 1
+  imagem: {fileID: 0}
