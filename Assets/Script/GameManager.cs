@@ -62,7 +62,6 @@ public class GameManager : MonoBehaviour
         else{
             button3.GetComponent<Image>().enabled = false;
             button3.transform.GetChild(0).GetComponent<TMP_Text>().text = "";
-            //button3.gameObject.SetActive(false);
         }
         panelQuestao.SetActive(true);
     }
@@ -85,18 +84,16 @@ public class GameManager : MonoBehaviour
             AudioManager.instance.tocarRespostaErrada();
             Jogador.voltarCasa();
         }
-        //panelQuestao.SetActive(false);
         button3.GetComponent<Image>().enabled = true;
-        //button3.gameObject.SetActive(true);
         StartCoroutine("proximaCarta");
     }
 
     public void verificarSorteAzar(){
+        if(card.resposta > 0)
+            AudioManager.instance.tocarRespostaCorreta();
+        else
+             AudioManager.instance.tocarRespostaErrada();
         Jogador.moverNumeroDeCasas(card.resposta);
-        //panelSorteAzar.SetActive(false);
-        while(!Jogador.podeContinuar) { 
-            Debug.Log("Esperar");
-        }
         StartCoroutine("proximaCarta");
     }
 
@@ -133,7 +130,7 @@ public class GameManager : MonoBehaviour
     }
 
     public void ativarVitoria(){
-        Time.timeScale = 0f;
+        AudioManager.instance.tocarVitoria();
         winScreen.SetActive(true);
     }
 

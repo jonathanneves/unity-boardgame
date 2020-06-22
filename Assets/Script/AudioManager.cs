@@ -34,4 +34,8 @@ public class AudioManager : MonoBehaviour {
     public void tocarRespostaErrada(){
         audioFX.PlayOneShot(audios[2]);
     }
+
+    public void tocarVitoria(){
+        audioFX.PlayOneShot(audios[3]);
+    }
 }
