@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 2
+  m_Name: "Cart\xE3o 19"
   m_EditorClassIdentifier: 
-  numero: 2
-  questao: "\u201C Todos os seres humanos nascem livres e ________________ em dignidade
-    e direitos. \u201D"
+  numero: 19
+  questao: "\u201CDireito \xE0 invas\xE3o de privacidade na vida privada e na fam\xEDlia,
+    no domic\xEDlio ou na correspond\xEAncia.\u201D Isto \xE9:"
   alternativas:
-  - 'a) Diferentes '
-  - b) Iguais
-  - "c) Seguran\xE7a"
+  - a) Correto
+  - b) Errado
   resposta: 1
+  ehQuestao: 1
+  imagem: {fileID: 0}

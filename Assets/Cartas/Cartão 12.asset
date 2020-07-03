@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 13
+  m_Name: "Cart\xE3o 12"
   m_EditorClassIdentifier: 
-  numero: 13
-  questao: "Uma pessoa pode ser submetida \xE0 tortura e tratamento ou castigo cruel,
-    desumano e degradante?"
+  numero: 12
+  questao: "An\xE1lise a seguinte situa\xE7\xE3o: \"Num dia ensolarado Joaquim estava
+    tranquilo passeando no shopping de Tubar\xE3o, de repente um guarda abordou-o
+    dizendo que estava sendo levado para a delegacia\". Qual direito ele teve restringido?"
   alternativas:
-  - a) Sim
-  - "b) N\xE3o"
+  - a) Propriedade
+  - b) Liberdade
+  - "c) Religi\xE3o"
   resposta: 1
+  ehQuestao: 1
+  imagem: {fileID: 0}

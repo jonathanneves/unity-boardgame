@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 17
+  m_Name: "Cart\xE3o 18"
   m_EditorClassIdentifier: 
-  numero: 17
-  questao: "\u201COs homens e mulheres de maior idade, sem qualquer restri\xE7\xE3o
-    de ra\xE7a, nacionalidade ou religi\xE3o, t\xEAm direito de contrair matrim\xF4nio
-    e fundar uma fam\xEDlia.\u201D Isto \xE9:"
+  numero: 18
+  questao: "\u201CTodo ser humano tem direito \xE0 propriedade e ningu\xE9m ser\xE1
+    arbitrariamente privado dela\u201D Isto \xE9: "
   alternativas:
   - a) Correto
   - b) Errado
   resposta: 0
+  ehQuestao: 1
+  imagem: {fileID: 0}

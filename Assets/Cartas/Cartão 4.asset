@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 18
+  m_Name: "Cart\xE3o 4"
   m_EditorClassIdentifier: 
-  numero: 18
-  questao: "\u201CTodo ser humano tem direito \xE0 propriedade e ningu\xE9m ser\xE1
-    arbitrariamente privado dela\u201D Isto \xE9: "
+  numero: 4
+  questao: "A Declara\xE7\xE3o Universal de Direitos humanos foi adotada em :"
   alternativas:
-  - a) Correto
-  - b) Errado
+  - a) 10 de dezembro de 1948
+  - b) 10 de dezembro de 1949
+  - c) 10 de dezembro de 1950
   resposta: 0
+  ehQuestao: 1
+  imagem: {fileID: 0}

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 7
+  m_Name: "Cart\xE3o 7"
   m_EditorClassIdentifier: 
   numero: 7
   questao: "\u201CTodo ser humano como membro da sociedade tem direito \xE0 __________________,
@@ -22,3 +22,5 @@ MonoBehaviour:
   - "b) Seguran\xE7a nacional"
   - c) Desenvolvimento da sua personalidade
   resposta: 1
+  ehQuestao: 1
+  imagem: {fileID: 0}

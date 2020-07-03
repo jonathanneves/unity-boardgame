@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 3
+  m_Name: "Cart\xE3o 13"
   m_EditorClassIdentifier: 
-  numero: 3
-  questao: "Analise e responda qual assertiva que conceitua o termo: pris\xE3o arbitr\xE1ria."
+  numero: 13
+  questao: "Uma pessoa pode ser submetida \xE0 tortura e tratamento ou castigo cruel,
+    desumano e degradante?"
   alternativas:
-  - "a) Pris\xE3o justa e correta"
-  - "b) Pris\xE3o sem motivo "
-  - "c) Pris\xE3o perp\xE9tua "
+  - a) Sim
+  - "b) N\xE3o"
   resposta: 1
+  ehQuestao: 1
+  imagem: {fileID: 0}

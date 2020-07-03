@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Sorte 3
   m_EditorClassIdentifier: 
   numero: 26
-  questao: "CASA DA PROTE\xC7\xC3O DOS DIREITOS HUMANOS. Avance uma casa!"
+  questao: "CASA DA PROTE\xC7\xC3O DOS DIREITOS HUMANOS. Avance duas casas!"
   alternativas: []
-  resposta: 1
+  resposta: 2
   ehQuestao: 0
-  imagem: {fileID: 21300000, guid: c4c685fff9e6fb84ca9250e605cc17bd, type: 3}
+  imagem: {fileID: 21300000, guid: 2bf7b827ae1ed264e9ae66f79ed5c7e1, type: 3}

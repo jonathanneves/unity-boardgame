@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 14
+  m_Name: "Cart\xE3o 17"
   m_EditorClassIdentifier: 
-  numero: 14
-  questao: "Uma pessoa pode ser mantida em escravid\xE3o ou servid\xE3o, ou submetida
-    a trabalho an\xE1logo ao escravo?"
+  numero: 17
+  questao: "\u201COs homens e mulheres de maior idade, sem qualquer restri\xE7\xE3o
+    de ra\xE7a, nacionalidade ou religi\xE3o, t\xEAm direito de contrair matrim\xF4nio
+    e fundar uma fam\xEDlia.\u201D Isto \xE9:"
   alternativas:
-  - a) Sim
-  - "b) N\xE3o"
-  resposta: 1
+  - a) Correto
+  - b) Errado
+  resposta: 0
+  ehQuestao: 1
+  imagem: {fileID: 0}

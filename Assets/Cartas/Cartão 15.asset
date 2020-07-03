@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 20
+  m_Name: "Cart\xE3o 15"
   m_EditorClassIdentifier: 
-  numero: 20
-  questao: "\u201CTodo ser humano tem direito \xE0 liberdade de locomo\xE7\xE3o e
-    resid\xEAncia dentro das fronteiras de cada Estado.\u201D Esta frase se refere
-    a dois direitos fundamentais, quais?"
+  numero: 15
+  questao: "\u201CTodos s\xE3o iguais perante a lei e t\xEAm direito, sem qualquer
+    distin\xE7\xE3o, a igual prote\xE7\xE3o da lei.\u201D Isto \xE9:"
   alternativas:
-  - "a) Liberdade de ir e vir e seguran\xE7a"
-  - b) Liberdade de ir e vir e propriedade
-  - c) Liberdade de ir e vir e privacidade
-  resposta: 1
+  - a) Correto
+  - b) Errrado
+  resposta: 0
+  ehQuestao: 1
+  imagem: {fileID: 0}

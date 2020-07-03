@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 102aff7d422f42e4aa81bcaebf834562, type: 3}
-  m_Name: Cartao 6
+  m_Name: "Cart\xE3o 3"
   m_EditorClassIdentifier: 
-  numero: 6
-  questao: "Analise esta frase e responda: \u201CTodo ser humano acusado de um ato
-    delituoso tem o direito de ser presumido inocente at\xE9 que a sua culpabilidade
-    tenha sido provada de acordo com a lei\u201D. Isso refere-se ao:"
+  numero: 3
+  questao: "Analise e responda qual assertiva que conceitua o termo: pris\xE3o arbitr\xE1ria."
   alternativas:
-  - "a) Direito \xE0 justi\xE7a"
-  - "b) Direito \xE0 presun\xE7\xE3o de inoc\xEAncia "
-  - "c) Direito \xE0 imagem e honra"
+  - "a) Pris\xE3o justa e correta"
+  - "b) Pris\xE3o sem motivo "
+  - "c) Pris\xE3o perp\xE9tua "
   resposta: 1
+  ehQuestao: 1
+  imagem: {fileID: 0}

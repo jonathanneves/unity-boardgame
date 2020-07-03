@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     [Header("UI")]
     public GameObject tabuleiro;
     public GameObject winScreen;
+    public Text scoreTxt;
    
     [Space(2)]
     [Header("Card Sorte ou Azar")]
@@ -32,20 +33,23 @@ public class GameManager : MonoBehaviour
     public Button button3;
  
     private bool startGame = true;
-    private float timeWaitByCard = 1.5f;
+    public float timeWaitByCard = 1f;
+    int acertos, erros = 0;
 
     void Awake(){
-        panelQuestao.SetActive(false);
+        tabuleiro.SetActive(false);
+        winScreen.SetActive(false);
         Shuffle(cartas);
     }
 
     void visualizarCarta(){
         AudioManager.instance.trocarCarta();
+       
         if(cartas.Count == 0)
             embaralhar();
     
         card = pop(cartas);
-
+        Debug.Log(card);
         if(card.ehQuestao)
             habilitarQuestao();
         else
@@ -78,10 +82,12 @@ public class GameManager : MonoBehaviour
         if (resposta == alternativa || resposta == 5 ) {
             Debug.Log("<color=green>Você Acertou!</color>");
             AudioManager.instance.tocarRespostaCorreta();
+            acertos++;
             Jogador.proximaCasa();
         } else {
             Debug.Log("<color=red>Você Errou!</color>");
             AudioManager.instance.tocarRespostaErrada();
+            erros++;
             Jogador.voltarCasa();
         }
         button3.GetComponent<Image>().enabled = true;
@@ -102,14 +108,14 @@ public class GameManager : MonoBehaviour
     }
 
     public void setColor(int color){
-        tabuleiro.SetActive(true);
         this.GetComponent<SpriteChange>().atualizarSprites(color);
         StartCoroutine("proximaCarta");
     }
 
-    IEnumerator proximaCarta(){
+    public IEnumerator proximaCarta(){
         if(startGame){
-            yield return new WaitForSeconds(timeWaitByCard*2);
+            tabuleiro.SetActive(true);
+            yield return new WaitForSeconds(timeWaitByCard*2f);
             startGame = false;
         } else {
             yield return new WaitForSeconds(timeWaitByCard);     
@@ -125,11 +131,12 @@ public class GameManager : MonoBehaviour
     }
 
     public void jogarNovamente(){
-        Time.timeScale = 1f;
+        winScreen.SetActive(false);
         SceneManager.LoadScene(0);
     }
 
     public void ativarVitoria(){
+        scoreTxt.text = "Acertos: " + acertos + " | Erros: "+ erros;
         AudioManager.instance.tocarVitoria();
         winScreen.SetActive(true);
     }
