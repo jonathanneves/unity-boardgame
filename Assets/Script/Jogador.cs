@@ -17,7 +17,7 @@ public class Jogador : MonoBehaviour
     void Awake()
     {
         ultimaCasa = tabuleiro.transform.childCount;
-        Debug.Log("Max:"+ultimaCasa);
+        //Debug.Log("Max:"+ultimaCasa);
         casas = new Transform[ultimaCasa];
         for (int i = 0; i < ultimaCasa; ++i) {
             casas[i] = tabuleiro.transform.GetChild(i);

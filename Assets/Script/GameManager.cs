@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     [Header("UI")]
     public GameObject tabuleiro;
     public GameObject winScreen;
+    public GameObject player;
     public Text scoreTxt;
    
     [Space(2)]
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
     int acertos, erros = 0;
 
     void Awake(){
+        player.SetActive(false);
         tabuleiro.SetActive(false);
         winScreen.SetActive(false);
         Shuffle(cartas);
@@ -103,11 +105,8 @@ public class GameManager : MonoBehaviour
         StartCoroutine("proximaCarta");
     }
 
-    public void hoverColor(int color){
-        this.GetComponent<SpriteChange>().atualizarPanel(color);
-    }
-
     public void setColor(int color){
+        Debug.Log(color);
         this.GetComponent<SpriteChange>().atualizarSprites(color);
         StartCoroutine("proximaCarta");
     }
@@ -115,7 +114,8 @@ public class GameManager : MonoBehaviour
     public IEnumerator proximaCarta(){
         if(startGame){
             tabuleiro.SetActive(true);
-            yield return new WaitForSeconds(timeWaitByCard*2f);
+            player.SetActive(true);
+            yield return new WaitForSeconds(timeWaitByCard*1.75f);
             startGame = false;
         } else {
             yield return new WaitForSeconds(timeWaitByCard);     
